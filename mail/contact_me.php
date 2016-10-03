@@ -10,8 +10,6 @@ if(empty($_POST['name'])  		||
 	echo "Void arguments";
 	return false;
    }else{
-      echo "Correct";
-      echo "Arguments correct";
       echo true;
    }
 	
