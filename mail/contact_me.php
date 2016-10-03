@@ -9,8 +9,6 @@ if(empty($_POST['name'])  		||
    echo "Error";
 	echo "Void arguments";
 	return false;
-   }else{
-      echo true;
    }
 	
 $name = strip_tags(htmlspecialchars($_POST['name']));
