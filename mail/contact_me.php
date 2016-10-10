@@ -1,5 +1,5 @@
 <?php
-
+//Empieza
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
    empty($_POST['phone']) 		||
@@ -23,5 +23,5 @@ $headers = "From: noreply@yourdomain.com\n";
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;		
-
+//Acaba
 ?>
