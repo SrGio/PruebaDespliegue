@@ -10,7 +10,7 @@ if(empty($_POST['name'])  		||
 	echo "Void arguments";
 	return false;
    }
-	
+echo "Contact Me";	
 $name = strip_tags(htmlspecialchars($_POST['name']));
 $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
